@@ -1,0 +1,55 @@
+INTERACTIVE_MODELS_PATH: "./weights"
+EXPS_PATH: "./experiments"
+
+
+# Evaluation datasets
+GRABCUT_PATH: "/home/dufei.df/data/segmentation/GrabCut"
+BERKELEY_PATH: "/home/dufei.df/data/segmentation/Berkeley"
+DAVIS_PATH:  "/home/dufei.df/data/segmentation/DAVIS"
+COCO_MVAL_PATH: "/home/dufei.df/data/segmentation/COCO_MVal"
+PASCALVOC_PATH: "/home/dufei.df/data/segmentation/VOC2012/"
+DAVIS585_PATH: "/home/admin/workspace/project/data/datasets/InterDavis/Selected_480P"
+
+# Train datasets
+SBD_PATH:  "/home/dufei.df/data/segmentation/SBD/dataset"
+COCO_PATH: "/home/dufei.df/data/segmentation/COCO"
+LVIS_PATH: "/home/dufei.df/data/segmentation/LVIS"
+LVIS_v1_PATH: "/home/dufei.df/data/segmentation/COCO_LVIS"
+OPENIMAGES_PATH: "/home/xizhi.cx/data/dataset/OpenImage"
+ADE20K_PATH: "/home/dufei.df/data/segmentation/ADE20K"
+
+# Extra options for training
+THINOBJECT_PATH: "/home/dufei.df/data/segmentation/ThinObject5K"
+MSRA10K_PATH: "/home/dufei.df/data/segmentation/MSRA10K_Imgs_GT/Imgs"
+DUT_TR_PATH: "/home/dufei.df/data/segmentation/DUTS-TR/DUTS-TR-Image"
+DUT_TE_PATH: "/home/dufei.df/data/segmentation/DUTS-TE/DUTS-TE-Image"
+YTBVOS_PATH: "/home/dufei.df/data/segmentation/YTBVOS"
+HFLICKER_PATH: "/home/dufei.df/data/segmentation/HFlickr"
+
+# You can download the weights for HRNet from the repository:
+# https://github.com/HRNet/HRNet-Image-Classification
+IMAGENET_PRETRAINED_MODELS:
+  HRNETV2_W18_SMALL: "../ClickSEG/pretrained_model/hrnet_w18_small_model_v2.pth"
+  HRNETV2_W18: "../ClickSEG/pretrained_model/hrnetv2_w18_imagenet_pretrained.pth"
+  HRNETV2_W32: "../ClickSEG/pretrained_model/hrnetv2_w32_imagenet_pretrained.pth"
+  HRNETV2_W40: "../ClickSEG/pretrained_model/hrnetv2_w40_imagenet_pretrained.pth"
+  HRNETV2_W48: "../ClickSEG/pretrained_model/hrnetv2_w48_imagenet_pretrained.pth"
+  SEGFORMER_B0: "../ClickSEG/pretrained_model/mit_b0.pth"
+  SEGFORMER_B1: "../ClickSEG/pretrained_model/mit_b1.pth"
+  SEGFORMER_B3: "../ClickSEG/pretrained_model/mit_b3.pth"
+  PPLCNET_X1 : "/home/admin/workspace/project/data/weights/PPLC/PP-LCNet/PPLCNet_x1_0_ssld_pretrained.pth"
+  MOBILENETV2: "/home/admin/workspace/project/data/weights/mobilenetV2-15498621.pth"
+  MAE_BASE: "/home/dufei.df/pretrained_model/mae_pretrain_vit_base.pth"
+  MAE_LARGE: "/home/dufei.df/pretrained_model/mae_pretrain_vit_large.pth"
+  MAE_HUGE: "/home/dufei.df/pretrained_model/mae_pretrain_vit_huge.pth"
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+core-python*
+experiments/*
+pretrained_model/*
+*.tar
+**/__pycache__/
+.DS_Store
+
